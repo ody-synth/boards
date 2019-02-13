@@ -1,0 +1,160 @@
+EESchema Schematic File Version 4
+LIBS:AmpSpeaker-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:AudioJack2_Ground J1
+U 1 1 5C6911B1
+P 1250 3350
+F 0 "J1" H 1280 3675 50  0000 C CNN
+F 1 "L" H 1280 3584 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1250 3350 50  0001 C CNN
+F 3 "~" H 1250 3350 50  0001 C CNN
+	1    1250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground J3
+U 1 1 5C691201
+P 2150 3350
+F 0 "J3" H 2180 3675 50  0000 C CNN
+F 1 "R" H 2180 3584 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2150 3350 50  0001 C CNN
+F 3 "~" H 2150 3350 50  0001 C CNN
+	1    2150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Ground J2
+U 1 1 5C69129A
+P 1700 4250
+F 0 "J2" H 1680 4575 50  0000 C CNN
+F 1 "LR" H 1680 4484 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1700 4250 50  0001 C CNN
+F 3 "~" H 1700 4250 50  0001 C CNN
+	1    1700 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 3350 2    50   BiDi ~ 0
+LIN
+Text GLabel 2450 3350 2    50   BiDi ~ 0
+RIN
+Text GLabel 2000 4350 2    50   BiDi ~ 0
+LIN
+Text GLabel 2000 4250 2    50   BiDi ~ 0
+RIN
+$Comp
+L power:GND #PWR06
+U 1 1 5C691425
+P 2450 3250
+F 0 "#PWR06" H 2450 3000 50  0001 C CNN
+F 1 "GND" V 2455 3122 50  0000 R CNN
+F 2 "" H 2450 3250 50  0001 C CNN
+F 3 "" H 2450 3250 50  0001 C CNN
+	1    2450 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5C69144B
+P 1550 3250
+F 0 "#PWR02" H 1550 3000 50  0001 C CNN
+F 1 "GND" V 1555 3122 50  0000 R CNN
+F 2 "" H 1550 3250 50  0001 C CNN
+F 3 "" H 1550 3250 50  0001 C CNN
+	1    1550 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5C69145E
+P 2000 4150
+F 0 "#PWR04" H 2000 3900 50  0001 C CNN
+F 1 "GND" V 2005 4022 50  0000 R CNN
+F 2 "" H 2000 4150 50  0001 C CNN
+F 3 "" H 2000 4150 50  0001 C CNN
+	1    2000 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 3250 2350 3250
+Wire Wire Line
+	2350 3350 2450 3350
+Wire Wire Line
+	1550 3250 1450 3250
+Wire Wire Line
+	1450 3350 1550 3350
+$Comp
+L power:GND #PWR03
+U 1 1 5C6914B9
+P 1700 4650
+F 0 "#PWR03" H 1700 4400 50  0001 C CNN
+F 1 "GND" H 1705 4477 50  0000 C CNN
+F 2 "" H 1700 4650 50  0001 C CNN
+F 3 "" H 1700 4650 50  0001 C CNN
+	1    1700 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4650 1700 4550
+Wire Wire Line
+	2000 4350 1900 4350
+Wire Wire Line
+	1900 4250 2000 4250
+Wire Wire Line
+	2000 4150 1900 4150
+$Comp
+L power:GND #PWR05
+U 1 1 5C691A72
+P 2150 3650
+F 0 "#PWR05" H 2150 3400 50  0001 C CNN
+F 1 "GND" H 2155 3477 50  0000 C CNN
+F 2 "" H 2150 3650 50  0001 C CNN
+F 3 "" H 2150 3650 50  0001 C CNN
+	1    2150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C691AAD
+P 1250 3650
+F 0 "#PWR01" H 1250 3400 50  0001 C CNN
+F 1 "GND" H 1255 3477 50  0000 C CNN
+F 2 "" H 1250 3650 50  0001 C CNN
+F 3 "" H 1250 3650 50  0001 C CNN
+	1    1250 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3550 2150 3650
+Wire Wire Line
+	1250 3550 1250 3650
+$Sheet
+S 3100 3750 550  400 
+U 5C668C19
+F0 "Amp" 50
+F1 "Amp.sch" 50
+F2 "LIN" B L 3100 3900 50 
+F3 "RIN" B L 3100 4000 50 
+$EndSheet
+Text GLabel 3000 4000 0    50   BiDi ~ 0
+RIN
+Text GLabel 3000 3900 0    50   BiDi ~ 0
+LIN
+Wire Wire Line
+	3100 3900 3000 3900
+Wire Wire Line
+	3000 4000 3100 4000
+$EndSCHEMATC

@@ -1,0 +1,547 @@
+EESchema Schematic File Version 4
+LIBS:AmpSpeaker-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L synth:PAM8406 U?
+U 1 1 5C6690DA
+P 6050 3750
+AR Path="/5C6690DA" Ref="U?"  Part="1" 
+AR Path="/5C668C19/5C6690DA" Ref="U1"  Part="1" 
+F 0 "U1" H 6050 4325 50  0000 C CNN
+F 1 "PAM8406" H 6050 4234 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6050 4250 50  0001 C CNN
+F 3 "" H 6050 4250 50  0001 C CNN
+	1    6050 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 4000 0    50   BiDi ~ 0
+L
+Text GLabel 6900 4000 2    50   BiDi ~ 0
+R
+$Comp
+L Device:C_Small C?
+U 1 1 5C6690E3
+P 5400 4000
+AR Path="/5C6690E3" Ref="C?"  Part="1" 
+AR Path="/5C668C19/5C6690E3" Ref="C3"  Part="1" 
+F 0 "C3" V 5400 4000 50  0000 C CNN
+F 1 "0.47uF" V 5300 4000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5400 4000 50  0001 C CNN
+F 3 "~" H 5400 4000 50  0001 C CNN
+	1    5400 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6690EA
+P 6700 4000
+AR Path="/5C6690EA" Ref="C?"  Part="1" 
+AR Path="/5C668C19/5C6690EA" Ref="C5"  Part="1" 
+F 0 "C5" V 6471 4000 50  0000 C CNN
+F 1 "0.47uF" V 6562 4000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6700 4000 50  0001 C CNN
+F 3 "~" H 6700 4000 50  0001 C CNN
+	1    6700 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 4000 6800 4000
+Wire Wire Line
+	6600 4000 6500 4000
+Wire Wire Line
+	5600 4000 5500 4000
+Wire Wire Line
+	5300 4000 5200 4000
+$Comp
+L power:GND #PWR?
+U 1 1 5C6690F5
+P 6600 4100
+AR Path="/5C6690F5" Ref="#PWR?"  Part="1" 
+AR Path="/5C668C19/5C6690F5" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 6600 3850 50  0001 C CNN
+F 1 "GND" H 6605 3927 50  0000 C CNN
+F 2 "" H 6600 4100 50  0001 C CNN
+F 3 "" H 6600 4100 50  0001 C CNN
+	1    6600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4100 6600 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5C6690FC
+P 5200 4100
+AR Path="/5C6690FC" Ref="#PWR?"  Part="1" 
+AR Path="/5C668C19/5C6690FC" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 5200 3850 50  0001 C CNN
+F 1 "GND" H 5205 3927 50  0000 C CNN
+F 2 "" H 5200 4100 50  0001 C CNN
+F 3 "" H 5200 4100 50  0001 C CNN
+	1    5200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C669102
+P 5400 4100
+AR Path="/5C669102" Ref="C?"  Part="1" 
+AR Path="/5C668C19/5C669102" Ref="C4"  Part="1" 
+F 0 "C4" V 5650 4100 50  0000 C CNN
+F 1 "1uF" V 5550 4100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5400 4100 50  0001 C CNN
+F 3 "~" H 5400 4100 50  0001 C CNN
+	1    5400 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 4100 5500 4100
+Wire Wire Line
+	5300 4100 5200 4100
+$Comp
+L Device:Speaker LS?
+U 1 1 5C66910B
+P 6000 2200
+AR Path="/5C66910B" Ref="LS?"  Part="1" 
+AR Path="/5C668C19/5C66910B" Ref="LS1"  Part="1" 
+F 0 "LS1" V 6350 2150 50  0000 R CNN
+F 1 "Speaker" V 6250 2200 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 2000 50  0001 C CNN
+F 3 "~" H 5990 2150 50  0001 C CNN
+	1    6000 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C669112
+P 6500 2550
+AR Path="/5C669112" Ref="R?"  Part="1" 
+AR Path="/5C668C19/5C669112" Ref="R4"  Part="1" 
+F 0 "R4" V 6293 2550 50  0000 C CNN
+F 1 "500" V 6384 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 2550 50  0001 C CNN
+F 3 "~" H 6500 2550 50  0001 C CNN
+	1    6500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C669119
+P 6500 2250
+AR Path="/5C669119" Ref="R?"  Part="1" 
+AR Path="/5C668C19/5C669119" Ref="R3"  Part="1" 
+F 0 "R3" V 6293 2250 50  0000 C CNN
+F 1 "500" V 6384 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 2250 50  0001 C CNN
+F 3 "~" H 6500 2250 50  0001 C CNN
+	1    6500 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2400 6500 2400
+Connection ~ 6500 2400
+Text GLabel 5500 3400 0    50   BiDi ~ 0
+OUT_L
+Text GLabel 6600 3400 2    50   BiDi ~ 0
+OUT_R
+Wire Wire Line
+	6600 3400 6500 3400
+Wire Wire Line
+	5600 3400 5500 3400
+Text GLabel 5500 3600 0    50   BiDi ~ 0
+-OUT_L
+Text GLabel 6600 3600 2    50   BiDi ~ 0
+-OUT_R
+Wire Wire Line
+	6500 3600 6600 3600
+Wire Wire Line
+	5600 3600 5500 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5C66912B
+P 5500 3500
+AR Path="/5C66912B" Ref="#PWR?"  Part="1" 
+AR Path="/5C668C19/5C66912B" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 5500 3250 50  0001 C CNN
+F 1 "GND" V 5505 3372 50  0000 R CNN
+F 2 "" H 5500 3500 50  0001 C CNN
+F 3 "" H 5500 3500 50  0001 C CNN
+	1    5500 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C669131
+P 6600 3500
+AR Path="/5C669131" Ref="#PWR?"  Part="1" 
+AR Path="/5C668C19/5C669131" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 6600 3250 50  0001 C CNN
+F 1 "GND" V 6605 3372 50  0000 R CNN
+F 2 "" H 6600 3500 50  0001 C CNN
+F 3 "" H 6600 3500 50  0001 C CNN
+	1    6600 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 3500 6500 3500
+Wire Wire Line
+	5600 3500 5500 3500
+Text GLabel 5050 2150 1    50   BiDi ~ 0
+OUT_L
+Text GLabel 5050 2650 3    50   BiDi ~ 0
+OUT_R
+Text GLabel 6500 2000 1    50   BiDi ~ 0
+-OUT_L
+Text GLabel 6500 2800 3    50   BiDi ~ 0
+-OUT_R
+Wire Wire Line
+	6500 2700 6500 2800
+Wire Wire Line
+	5050 2650 5050 2550
+Wire Wire Line
+	5050 2250 5050 2150
+Wire Wire Line
+	6500 2000 6500 2100
+Text GLabel 4750 3700 0    50   BiDi ~ 0
+VDD
+$Comp
+L Device:C_Small C?
+U 1 1 5C669142
+P 4850 3800
+AR Path="/5C669142" Ref="C?"  Part="1" 
+AR Path="/5C668C19/5C669142" Ref="C1"  Part="1" 
+F 0 "C1" H 4758 3754 50  0000 R CNN
+F 1 "1uF" H 4758 3845 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4850 3800 50  0001 C CNN
+F 3 "~" H 4850 3800 50  0001 C CNN
+	1    4850 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C669149
+P 4850 4000
+AR Path="/5C669149" Ref="#PWR?"  Part="1" 
+AR Path="/5C668C19/5C669149" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 4850 3750 50  0001 C CNN
+F 1 "GND" H 4855 3827 50  0000 C CNN
+F 2 "" H 4850 4000 50  0001 C CNN
+F 3 "" H 4850 4000 50  0001 C CNN
+	1    4850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4000 4850 3900
+Text GLabel 7350 3700 2    50   BiDi ~ 0
+VDD
+$Comp
+L Device:C_Small C?
+U 1 1 5C669151
+P 7250 3800
+AR Path="/5C669151" Ref="C?"  Part="1" 
+AR Path="/5C668C19/5C669151" Ref="C6"  Part="1" 
+F 0 "C6" H 7158 3754 50  0000 R CNN
+F 1 "1uF" H 7158 3845 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7250 3800 50  0001 C CNN
+F 3 "~" H 7250 3800 50  0001 C CNN
+	1    7250 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C669158
+P 7250 4000
+AR Path="/5C669158" Ref="#PWR?"  Part="1" 
+AR Path="/5C668C19/5C669158" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 7250 3750 50  0001 C CNN
+F 1 "GND" H 7255 3827 50  0000 C CNN
+F 2 "" H 7250 4000 50  0001 C CNN
+F 3 "" H 7250 4000 50  0001 C CNN
+	1    7250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4000 7250 3900
+Wire Wire Line
+	7350 3700 7250 3700
+Wire Wire Line
+	7250 3700 6500 3700
+Connection ~ 7250 3700
+Wire Wire Line
+	4850 3700 4750 3700
+Connection ~ 4850 3700
+Wire Wire Line
+	6500 3900 7250 3900
+Connection ~ 7250 3900
+Wire Wire Line
+	4850 3700 4950 3700
+Wire Wire Line
+	5600 3900 5100 3900
+Wire Wire Line
+	5100 3900 5100 3700
+Connection ~ 5100 3700
+Wire Wire Line
+	5100 3700 5200 3700
+$Comp
+L Connector:AudioJack3_Ground J?
+U 1 1 5C66916B
+P 10000 3800
+AR Path="/5C66916B" Ref="J?"  Part="1" 
+AR Path="/5C668C19/5C66916B" Ref="J4"  Part="1" 
+F 0 "J4" H 9980 4125 50  0000 C CNN
+F 1 "LR" H 9980 4034 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10000 3800 50  0001 C CNN
+F 3 "~" H 10000 3800 50  0001 C CNN
+	1    10000 3800
+	-1   0    0    1   
+$EndComp
+Text GLabel 8500 3600 0    50   BiDi ~ 0
+OUT_L
+Text GLabel 8500 3900 0    50   BiDi ~ 0
+OUT_R
+$Comp
+L power:GND #PWR?
+U 1 1 5C669174
+P 9700 3900
+AR Path="/5C669174" Ref="#PWR?"  Part="1" 
+AR Path="/5C668C19/5C669174" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 9700 3650 50  0001 C CNN
+F 1 "GND" V 9705 3772 50  0000 R CNN
+F 2 "" H 9700 3900 50  0001 C CNN
+F 3 "" H 9700 3900 50  0001 C CNN
+	1    9700 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C66917A
+P 10000 3400
+AR Path="/5C66917A" Ref="#PWR?"  Part="1" 
+AR Path="/5C668C19/5C66917A" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 10000 3150 50  0001 C CNN
+F 1 "GND" H 10005 3227 50  0000 C CNN
+F 2 "" H 10000 3400 50  0001 C CNN
+F 3 "" H 10000 3400 50  0001 C CNN
+	1    10000 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10000 3400 10000 3500
+Wire Wire Line
+	9800 3900 9700 3900
+$Comp
+L Device:C_Small C?
+U 1 1 5C669184
+P 4950 3800
+AR Path="/5C669184" Ref="C?"  Part="1" 
+AR Path="/5C668C19/5C669184" Ref="C2"  Part="1" 
+F 0 "C2" H 4858 3754 50  0000 R CNN
+F 1 "1uF" H 4858 3845 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4950 3800 50  0001 C CNN
+F 3 "~" H 4950 3800 50  0001 C CNN
+	1    4950 3800
+	-1   0    0    1   
+$EndComp
+Connection ~ 4950 3700
+Wire Wire Line
+	4950 3700 5100 3700
+Wire Wire Line
+	4950 3900 4950 4000
+Wire Wire Line
+	4950 4000 4850 4000
+Connection ~ 4850 4000
+NoConn ~ 6500 3800
+Wire Wire Line
+	5600 3800 5200 3800
+Wire Wire Line
+	5200 3800 5200 3700
+Connection ~ 5200 3700
+Wire Wire Line
+	5200 3700 5600 3700
+$Comp
+L Device:R_POT RV?
+U 1 1 5C669195
+P 3700 3400
+AR Path="/5C669195" Ref="RV?"  Part="1" 
+AR Path="/5C668C19/5C669195" Ref="RV1"  Part="1" 
+F 0 "RV1" H 3630 3446 50  0000 R CNN
+F 1 "100k" H 3630 3355 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 3700 3400 50  0001 C CNN
+F 3 "~" H 3700 3400 50  0001 C CNN
+	1    3700 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4350 3400 2    50   BiDi ~ 0
+L
+Wire Wire Line
+	3700 3250 3700 3150
+Wire Wire Line
+	3950 3400 3850 3400
+NoConn ~ 3700 3550
+$Comp
+L Device:R_POT RV?
+U 1 1 5C6691A1
+P 3700 4100
+AR Path="/5C6691A1" Ref="RV?"  Part="1" 
+AR Path="/5C668C19/5C6691A1" Ref="RV2"  Part="1" 
+F 0 "RV2" H 3630 4146 50  0000 R CNN
+F 1 "100k" H 3630 4055 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 3700 4100 50  0001 C CNN
+F 3 "~" H 3700 4100 50  0001 C CNN
+	1    3700 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 4350 4100 2    50   BiDi ~ 0
+R
+Wire Wire Line
+	3700 3950 3700 3850
+Wire Wire Line
+	3950 4100 3850 4100
+NoConn ~ 3700 4250
+$Comp
+L Device:R_POT RV?
+U 1 1 5C6691AD
+P 5050 2400
+AR Path="/5C6691AD" Ref="RV?"  Part="1" 
+AR Path="/5C668C19/5C6691AD" Ref="RV3"  Part="1" 
+F 0 "RV3" H 4980 2446 50  0000 R CNN
+F 1 "1k" H 4980 2355 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 5050 2400 50  0001 C CNN
+F 3 "~" H 5050 2400 50  0001 C CNN
+	1    5050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6691B4
+P 4100 3400
+AR Path="/5C6691B4" Ref="R?"  Part="1" 
+AR Path="/5C668C19/5C6691B4" Ref="R1"  Part="1" 
+F 0 "R1" V 3893 3400 50  0000 C CNN
+F 1 "10k" V 3984 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4030 3400 50  0001 C CNN
+F 3 "~" H 4100 3400 50  0001 C CNN
+	1    4100 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C6691BB
+P 4100 4100
+AR Path="/5C6691BB" Ref="R?"  Part="1" 
+AR Path="/5C668C19/5C6691BB" Ref="R2"  Part="1" 
+F 0 "R2" V 3893 4100 50  0000 C CNN
+F 1 "10k" V 3984 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4030 4100 50  0001 C CNN
+F 3 "~" H 4100 4100 50  0001 C CNN
+	1    4100 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 3400 4250 3400
+Wire Wire Line
+	4250 4100 4350 4100
+Text HLabel 3700 3150 1    50   BiDi ~ 0
+LIN
+Text HLabel 3700 3850 1    50   BiDi ~ 0
+RIN
+$Comp
+L Device:R_POT RV?
+U 1 1 5C66CA4E
+P 9150 3750
+AR Path="/5C66CA4E" Ref="RV?"  Part="1" 
+AR Path="/5C668C19/5C66CA4E" Ref="RV4"  Part="1" 
+F 0 "RV4" H 9080 3796 50  0000 R CNN
+F 1 "100k" H 9080 3705 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 9150 3750 50  0001 C CNN
+F 3 "~" H 9150 3750 50  0001 C CNN
+	1    9150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C66CACA
+P 9400 3750
+AR Path="/5C66CACA" Ref="#PWR?"  Part="1" 
+AR Path="/5C668C19/5C66CACA" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 9400 3500 50  0001 C CNN
+F 1 "GND" V 9405 3622 50  0000 R CNN
+F 2 "" H 9400 3750 50  0001 C CNN
+F 3 "" H 9400 3750 50  0001 C CNN
+	1    9400 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 3750 9300 3750
+Wire Wire Line
+	9250 3800 9250 3900
+Wire Wire Line
+	9250 3900 9150 3900
+Wire Wire Line
+	9250 3700 9250 3600
+Wire Wire Line
+	9250 3600 9150 3600
+Wire Wire Line
+	9150 3600 8900 3600
+Connection ~ 9150 3600
+Wire Wire Line
+	8900 3900 9150 3900
+Connection ~ 9150 3900
+Wire Wire Line
+	9800 3700 9250 3700
+Wire Wire Line
+	9250 3800 9800 3800
+$Comp
+L Device:R R5
+U 1 1 5C674C64
+P 8750 3600
+F 0 "R5" V 8543 3600 50  0000 C CNN
+F 1 "10k" V 8634 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8680 3600 50  0001 C CNN
+F 3 "~" H 8750 3600 50  0001 C CNN
+	1    8750 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5C674D99
+P 8750 3900
+F 0 "R6" V 8543 3900 50  0000 C CNN
+F 1 "10k" V 8634 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8680 3900 50  0001 C CNN
+F 3 "~" H 8750 3900 50  0001 C CNN
+	1    8750 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 3600 8500 3600
+Wire Wire Line
+	8500 3900 8600 3900
+$Comp
+L Switch:SW_DIP_x01 SW1
+U 1 1 5C6795C1
+P 5600 2400
+F 0 "SW1" H 5600 2667 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5600 2576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5600 2400 50  0001 C CNN
+F 3 "" H 5600 2400 50  0001 C CNN
+	1    5600 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2400 5900 2400
+Wire Wire Line
+	5300 2400 5200 2400
+$EndSCHEMATC

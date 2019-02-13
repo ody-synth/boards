@@ -1,0 +1,307 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Transformer_1P_SS T?
+U 1 1 5C6655E3
+P 3950 3000
+F 0 "T?" H 3950 3378 50  0000 C CNN
+F 1 "230V/110V to 12V" H 3950 3287 50  0000 C CNN
+F 2 "" H 3950 3000 50  0001 C CNN
+F 3 "~" H 3950 3000 50  0001 C CNN
+	1    3950 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 3000 2    50   BiDi ~ 0
+0V
+Wire Wire Line
+	4450 3000 4350 3000
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 5C6655EC
+P 3250 3050
+F 0 "SW?" H 3250 3417 50  0000 C CNN
+F 1 "SW_DIP_x02" H 3250 3326 50  0000 C CNN
+F 2 "" H 3250 3050 50  0001 C CNN
+F 3 "" H 3250 3050 50  0001 C CNN
+	1    3250 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2950 3550 2800
+Wire Wire Line
+	3550 3050 3550 3200
+$Comp
+L Connector:Conn_WallPlug_Earth P?
+U 1 1 5C6655F5
+P 2500 3000
+F 0 "P?" H 2565 3325 50  0000 C CNN
+F 1 "Conn_WallPlug_Earth" H 2565 3234 50  0000 C CNN
+F 2 "" H 2900 3000 50  0001 C CNN
+F 3 "~" H 2900 3000 50  0001 C CNN
+	1    2500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C6655FC
+P 2900 3300
+F 0 "#PWR?" H 2900 3050 50  0001 C CNN
+F 1 "GND" V 2905 3172 50  0000 R CNN
+F 2 "" H 2900 3300 50  0001 C CNN
+F 3 "" H 2900 3300 50  0001 C CNN
+	1    2900 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 3300 2800 3300
+Wire Wire Line
+	2800 3100 2950 3100
+Wire Wire Line
+	2950 3100 2950 3050
+Wire Wire Line
+	2950 2950 2950 2900
+Wire Wire Line
+	2950 2900 2800 2900
+$Comp
+L Diode:1N4001 D?
+U 1 1 5C665607
+P 5100 3000
+F 0 "D?" V 5054 3079 50  0000 L CNN
+F 1 "1N4001" V 5145 3079 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5100 2825 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5100 3000 50  0001 C CNN
+	1    5100 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4001 D?
+U 1 1 5C66560E
+P 5250 2850
+F 0 "D?" H 5250 2634 50  0000 C CNN
+F 1 "1N4001" H 5250 2725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5250 2675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5250 2850 50  0001 C CNN
+	1    5250 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4001 D?
+U 1 1 5C665615
+P 5400 3000
+F 0 "D?" V 5354 3079 50  0000 L CNN
+F 1 "1N4001" V 5445 3079 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5400 2825 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5400 3000 50  0001 C CNN
+	1    5400 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4001 D?
+U 1 1 5C66561C
+P 5250 3150
+F 0 "D?" H 5250 2934 50  0000 C CNN
+F 1 "1N4001" H 5250 3025 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5250 2975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5250 3150 50  0001 C CNN
+	1    5250 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 2800 5100 2800
+Wire Wire Line
+	5100 2800 5100 2850
+Connection ~ 5100 2850
+Wire Wire Line
+	4350 3200 5400 3200
+Wire Wire Line
+	5400 3200 5400 3150
+Connection ~ 5400 3150
+$Comp
+L Regulator_Linear:LM7812_TO220 U?
+U 1 1 5C665629
+P 7000 2600
+F 0 "U?" H 7000 2842 50  0000 C CNN
+F 1 "LM7812_TO220" H 7000 2751 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7000 2825 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 7000 2550 50  0001 C CNN
+	1    7000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM7812_TO220 U?
+U 1 1 5C665630
+P 7000 3400
+F 0 "U?" H 7000 3550 50  0000 C CNN
+F 1 "LM7812_TO220" H 7000 3641 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7000 3625 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 7000 3350 50  0001 C CNN
+	1    7000 3400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5400 2850 5400 2600
+Wire Wire Line
+	5400 2600 6050 2600
+Connection ~ 5400 2850
+Wire Wire Line
+	5100 3150 5100 3400
+Wire Wire Line
+	5100 3400 6050 3400
+Connection ~ 5100 3150
+Text GLabel 5950 3000 0    50   BiDi ~ 0
+0V
+$Comp
+L Device:CP C?
+U 1 1 5C66563E
+P 6050 2750
+F 0 "C?" H 6168 2796 50  0000 L CNN
+F 1 "1000uF" H 6168 2705 50  0000 L CNN
+F 2 "" H 6088 2600 50  0001 C CNN
+F 3 "~" H 6050 2750 50  0001 C CNN
+	1    6050 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6050 2600
+$Comp
+L Device:CP C?
+U 1 1 5C665646
+P 6050 3250
+F 0 "C?" H 5932 3204 50  0000 R CNN
+F 1 "1000uF" H 5932 3295 50  0000 R CNN
+F 2 "" H 6088 3100 50  0001 C CNN
+F 3 "~" H 6050 3250 50  0001 C CNN
+	1    6050 3250
+	-1   0    0    1   
+$EndComp
+Connection ~ 6050 3400
+Wire Wire Line
+	6050 2600 6700 2600
+Wire Wire Line
+	6050 3400 6700 3400
+Wire Wire Line
+	5950 3000 6050 3000
+Wire Wire Line
+	7000 3000 7000 2900
+Wire Wire Line
+	7000 3000 7000 3100
+Connection ~ 7000 3000
+Wire Wire Line
+	6050 3000 6050 2900
+Connection ~ 6050 3000
+Wire Wire Line
+	6050 3000 7000 3000
+Wire Wire Line
+	6050 3000 6050 3100
+$Comp
+L Device:CP C?
+U 1 1 5C665658
+P 7500 2750
+F 0 "C?" H 7618 2796 50  0000 L CNN
+F 1 "100uF" H 7618 2705 50  0000 L CNN
+F 2 "" H 7538 2600 50  0001 C CNN
+F 3 "~" H 7500 2750 50  0001 C CNN
+	1    7500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5C66565F
+P 7500 3250
+F 0 "C?" H 7382 3204 50  0000 R CNN
+F 1 "100uF" H 7382 3295 50  0000 R CNN
+F 2 "" H 7538 3100 50  0001 C CNN
+F 3 "~" H 7500 3250 50  0001 C CNN
+	1    7500 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 2600 7300 2600
+Wire Wire Line
+	7300 3400 7500 3400
+Wire Wire Line
+	7500 2900 7500 3000
+Wire Wire Line
+	7000 3000 7500 3000
+Connection ~ 7500 3000
+Wire Wire Line
+	7500 3000 7500 3100
+$Comp
+L Device:C C?
+U 1 1 5C66566C
+P 7950 2750
+F 0 "C?" H 8065 2796 50  0000 L CNN
+F 1 "100nf" H 8065 2705 50  0000 L CNN
+F 2 "" H 7988 2600 50  0001 C CNN
+F 3 "~" H 7950 2750 50  0001 C CNN
+	1    7950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C665673
+P 7950 3250
+F 0 "C?" H 8065 3296 50  0000 L CNN
+F 1 "100nf" H 8065 3205 50  0000 L CNN
+F 2 "" H 7988 3100 50  0001 C CNN
+F 3 "~" H 7950 3250 50  0001 C CNN
+	1    7950 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2600 7950 2600
+Connection ~ 7500 2600
+Wire Wire Line
+	7950 2900 7950 3000
+Wire Wire Line
+	7950 3400 7500 3400
+Connection ~ 7500 3400
+Wire Wire Line
+	7500 3000 7950 3000
+Connection ~ 7950 3000
+Wire Wire Line
+	7950 3000 7950 3100
+Wire Wire Line
+	8250 2600 7950 2600
+Connection ~ 7950 2600
+Wire Wire Line
+	7950 3400 8250 3400
+Connection ~ 7950 3400
+$Comp
+L power:GND #PWR?
+U 1 1 5C665688
+P 8050 3000
+F 0 "#PWR?" H 8050 2750 50  0001 C CNN
+F 1 "GND" V 8055 2872 50  0000 R CNN
+F 2 "" H 8050 3000 50  0001 C CNN
+F 3 "" H 8050 3000 50  0001 C CNN
+	1    8050 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 3000 7950 3000
+Wire Notes Line
+	2350 2200 8600 2200
+Wire Notes Line
+	8600 2200 8600 3800
+Wire Notes Line
+	8600 3800 2350 3800
+Wire Notes Line
+	2350 3800 2350 2200
+Text HLabel 8250 2600 2    50   BiDi ~ 0
+12V
+Text HLabel 8250 3400 2    50   BiDi ~ 0
+-12V
+$EndSCHEMATC

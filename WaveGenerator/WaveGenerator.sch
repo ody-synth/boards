@@ -150,17 +150,6 @@ F 3 "~" H 5450 3350 50  0001 C CNN
 	1    5450 3350
 	0    1    1    0   
 $EndComp
-$Comp
-L WaveGenerator-rescue:AD9833-synth U1
-U 1 1 5C63F47E
-P 6200 3550
-F 0 "U1" H 6200 3975 50  0000 C CNN
-F 1 "AD9833" H 6200 3884 50  0000 C CNN
-F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 6200 3550 50  0001 C CNN
-F 3 "" H 6200 3550 50  0001 C CNN
-	1    6200 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5800 3550 5550 3550
 Wire Wire Line
@@ -904,4 +893,15 @@ Text GLabel 1100 3050 0    50   Input ~ 0
 D1
 Text GLabel 1400 3050 2    50   Input ~ 0
 D2
+$Comp
+L synth:AD9833 U1
+U 1 1 5C66D2CA
+P 6200 3550
+F 0 "U1" H 6200 3975 50  0000 C CNN
+F 1 "AD9833" H 6200 3884 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 6200 3550 50  0001 C CNN
+F 3 "" H 6200 3550 50  0001 C CNN
+	1    6200 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

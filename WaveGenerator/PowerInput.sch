@@ -39,7 +39,7 @@ U 1 1 5C6E3229
 P 3650 700
 F 0 "U4" H 3650 942 50  0000 C CNN
 F 1 "LM7805_TO220" H 3650 851 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 3650 925 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3650 925 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 3650 650 50  0001 C CNN
 	1    3650 700 
 	1    0    0    -1  

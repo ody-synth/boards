@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name WaveGenerator-rescue)(type Legacy)(uri ${KIPRJMOD}/WaveGenerator-rescue.lib)(options "")(descr ""))
 )

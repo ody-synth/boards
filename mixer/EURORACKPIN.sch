@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:mixer-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -25,13 +26,13 @@ F 3 "~" H 1700 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2100 1850 2    50   BiDi ~ 0
-12V
+12VC
 Text GLabel 1400 1850 0    50   BiDi ~ 0
-12V
+12VC
 Text GLabel 1400 2250 0    50   BiDi ~ 0
--12V
+-12VC
 Text GLabel 2100 2250 2    50   BiDi ~ 0
--12V
+-12VC
 $Comp
 L power:GND #PWR015
 U 1 1 5C897CC7
@@ -79,9 +80,9 @@ Wire Wire Line
 Wire Wire Line
 	2000 2250 2100 2250
 Text GLabel 2900 1750 0    50   BiDi ~ 0
-12V
+12VC
 Text GLabel 2900 2350 0    50   BiDi ~ 0
--12V
+-12VC
 $Comp
 L Diode:1N4007 D4
 U 1 1 5C897E61
@@ -110,7 +111,7 @@ U 1 1 5C897F6C
 P 3900 1900
 F 0 "C5" H 4018 1946 50  0000 L CNN
 F 1 "10uF" H 4018 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 3938 1750 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3938 1750 50  0001 C CNN
 F 3 "~" H 3900 1900 50  0001 C CNN
 	1    3900 1900
 	1    0    0    -1  
@@ -121,7 +122,7 @@ U 1 1 5C897FF0
 P 3900 2200
 F 0 "C6" H 4018 2246 50  0000 L CNN
 F 1 "10uF" H 4018 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 3938 2050 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3938 2050 50  0001 C CNN
 F 3 "~" H 3900 2200 50  0001 C CNN
 	1    3900 2200
 	1    0    0    -1  
@@ -132,7 +133,7 @@ U 1 1 5C898051
 P 4450 1900
 F 0 "C7" H 4565 1946 50  0000 L CNN
 F 1 "100nF" H 4565 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4488 1750 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4488 1750 50  0001 C CNN
 F 3 "~" H 4450 1900 50  0001 C CNN
 	1    4450 1900
 	1    0    0    -1  
@@ -143,7 +144,7 @@ U 1 1 5C8980AB
 P 4450 2200
 F 0 "C8" H 4565 2246 50  0000 L CNN
 F 1 "100nF" H 4565 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4488 2050 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4488 2050 50  0001 C CNN
 F 3 "~" H 4450 2200 50  0001 C CNN
 	1    4450 2200
 	1    0    0    -1  

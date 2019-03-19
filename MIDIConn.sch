@@ -1,0 +1,154 @@
+EESchema Schematic File Version 4
+LIBS:sequencer-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Isolator:6N136 U?
+U 1 1 5C985841
+P 4000 3400
+F 0 "U?" V 4046 3120 50  0000 R CNN
+F 1 "6N136" V 3955 3120 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3800 3100 50  0001 L CIN
+F 3 "https://optoelectronics.liteon.com/upload/download/DS70-2008-0032/6N135-L%206N136-L%20series.pdf" H 4000 3400 50  0001 L CNN
+	1    4000 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C985849
+P 3950 2900
+F 0 "R?" V 3743 2900 50  0000 C CNN
+F 1 "1k" V 3834 2900 50  0000 C CNN
+F 2 "" V 3880 2900 50  0001 C CNN
+F 3 "~" H 3950 2900 50  0001 C CNN
+	1    3950 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 2900 3800 3000
+$Comp
+L Device:C C?
+U 1 1 5C985851
+P 4450 3000
+F 0 "C?" V 4198 3000 50  0000 C CNN
+F 1 "0.1uF" V 4289 3000 50  0000 C CNN
+F 2 "" H 4488 2850 50  0001 C CNN
+F 3 "~" H 4450 3000 50  0001 C CNN
+	1    4450 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 3000 3800 3000
+Connection ~ 3800 3000
+Wire Wire Line
+	3800 3000 3800 3100
+Wire Wire Line
+	4200 3100 4600 3100
+Wire Wire Line
+	4600 3100 4600 3000
+$Comp
+L power:GND #PWR?
+U 1 1 5C98585D
+P 4600 3000
+F 0 "#PWR?" H 4600 2750 50  0001 C CNN
+F 1 "GND" H 4605 2827 50  0000 C CNN
+F 2 "" H 4600 3000 50  0001 C CNN
+F 3 "" H 4600 3000 50  0001 C CNN
+	1    4600 3000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4600 3000
+Wire Wire Line
+	4100 3100 4100 2900
+Text GLabel 3900 3700 3    50   BiDi ~ 0
+D1
+Text GLabel 4100 3700 3    50   BiDi ~ 0
+D2
+NoConn ~ 4300 4500
+NoConn ~ 3700 4500
+$Comp
+L Device:R R?
+U 1 1 5C98586A
+P 3700 4250
+F 0 "R?" H 3630 4204 50  0000 R CNN
+F 1 "220" H 3630 4295 50  0000 R CNN
+F 2 "" V 3630 4250 50  0001 C CNN
+F 3 "~" H 3700 4250 50  0001 C CNN
+	1    3700 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C985871
+P 4550 4200
+F 0 "C?" V 4298 4200 50  0000 C CNN
+F 1 "10nF" V 4389 4200 50  0000 C CNN
+F 2 "" H 4588 4050 50  0001 C CNN
+F 3 "~" H 4550 4200 50  0001 C CNN
+	1    4550 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:DIN-5_180degree J?
+U 1 1 5C985878
+P 4000 4500
+F 0 "J?" H 4000 4226 50  0000 C CNN
+F 1 "DIN-5_180degree" H 4000 4135 50  0000 C CNN
+F 2 "" H 4000 4500 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 4000 4500 50  0001 C CNN
+	1    4000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C98587F
+P 4800 4200
+F 0 "#PWR?" H 4800 3950 50  0001 C CNN
+F 1 "GND" H 4805 4027 50  0000 C CNN
+F 2 "" H 4800 4200 50  0001 C CNN
+F 3 "" H 4800 4200 50  0001 C CNN
+	1    4800 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 4200 4700 4200
+Wire Wire Line
+	4400 4200 4000 4200
+$Comp
+L Device:D D?
+U 1 1 5C985887
+P 4000 4100
+F 0 "D?" H 4000 4316 50  0000 C CNN
+F 1 "1N4148" H 4000 4225 50  0000 C CNN
+F 2 "" H 4000 4100 50  0001 C CNN
+F 3 "~" H 4000 4100 50  0001 C CNN
+	1    4000 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4400 4300 4100
+Wire Wire Line
+	4300 4100 4150 4100
+Wire Wire Line
+	3850 4100 3700 4100
+Text GLabel 3850 4100 1    50   BiDi ~ 0
+D1
+Text GLabel 4150 4100 1    50   BiDi ~ 0
+D2
+Text HLabel 4100 2900 1    50   BiDi ~ 0
+MIDI-IN
+Text HLabel 3800 3000 0    50   BiDi ~ 0
+5V
+$EndSCHEMATC

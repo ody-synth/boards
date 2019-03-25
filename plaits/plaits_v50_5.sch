@@ -1,0 +1,706 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr User 16774 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	8400 2500 8400 2600
+Wire Wire Line
+	8200 2600 8400 2600
+Wire Wire Line
+	8200 2600 8200 2700
+Wire Wire Line
+	8200 2500 8200 2600
+Connection ~ 8200 2600
+Text GLabel 8400 2500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7300 1500 7300 1600
+Wire Wire Line
+	7300 1600 7300 1700
+Wire Wire Line
+	7300 1600 7600 1600
+Wire Wire Line
+	7600 1600 7600 1700
+Connection ~ 7300 1600
+Text GLabel 7300 1500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	11100 2700 11100 2900
+Text GLabel 11100 2700 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	11600 2800 11600 2900
+Text GLabel 11600 2800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	5200 1400 5200 1500
+Wire Wire Line
+	5200 1500 5200 1600
+Wire Wire Line
+	5900 1400 5300 1400
+Wire Wire Line
+	5300 1400 5200 1400
+Wire Wire Line
+	5200 1500 5300 1500
+Wire Wire Line
+	5300 1500 5900 1500
+Wire Wire Line
+	5900 1600 5300 1600
+Wire Wire Line
+	5300 1600 5200 1600
+Wire Wire Line
+	5200 1600 4900 1600
+Wire Wire Line
+	4900 1600 4900 1700
+Connection ~ 5200 1500
+Connection ~ 5200 1600
+Connection ~ 5300 1400
+Connection ~ 5300 1500
+Connection ~ 5300 1600
+Text GLabel 5200 1400 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	11600 1500 11600 1600
+Text GLabel 11600 1500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	11100 1600 11100 1400
+Text GLabel 11100 1600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	12000 1500 12000 1600
+Text GLabel 12000 1500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9800 1500 9800 1600
+Text GLabel 9800 1500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	10600 1500 10600 1600
+Text GLabel 10600 1500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	10600 2800 10600 2900
+Text GLabel 10600 2800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7300 2000 7300 2100
+Wire Wire Line
+	7300 2200 7300 2100
+Wire Wire Line
+	7300 2100 6900 2100
+Wire Wire Line
+	6900 2100 6900 1700
+Wire Wire Line
+	7600 2100 7300 2100
+Wire Wire Line
+	6900 1700 6800 1700
+Connection ~ 7300 2100
+Text GLabel 7300 2000 0    10   BiDi ~ 0
+VEE
+Wire Wire Line
+	7300 1200 7300 1100
+Wire Wire Line
+	7300 1100 7300 1000
+Wire Wire Line
+	6900 1100 7300 1100
+Wire Wire Line
+	6900 1300 6900 1100
+Wire Wire Line
+	6800 1300 6900 1300
+Connection ~ 7300 1100
+Text GLabel 7300 1200 0    10   BiDi ~ 0
+VCC
+Wire Wire Line
+	11500 2400 11600 2400
+Wire Wire Line
+	11600 2500 11600 2400
+Wire Wire Line
+	11600 2400 11700 2400
+Connection ~ 11600 2400
+Text GLabel 11700 2400 2    70   BiDi ~ 0
++3V3_A
+Wire Wire Line
+	11600 1200 11600 1100
+Wire Wire Line
+	11600 1100 12000 1100
+Wire Wire Line
+	12000 1100 12000 1200
+Wire Wire Line
+	12000 1000 12000 1100
+Wire Wire Line
+	11500 1100 11600 1100
+Connection ~ 12000 1100
+Connection ~ 11600 1100
+Text GLabel 11600 1200 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	8400 2100 8200 2100
+Wire Wire Line
+	8200 2100 8000 2100
+Wire Wire Line
+	8400 2100 8400 2200
+Wire Wire Line
+	8400 2100 8500 2100
+Wire Wire Line
+	8200 2300 8200 2100
+Connection ~ 8400 2100
+Connection ~ 8200 2100
+Text GLabel 8500 2100 2    70   BiDi ~ 0
+AREF_-10
+Wire Wire Line
+	6000 1300 5900 1300
+Wire Wire Line
+	5900 1300 5300 1300
+Connection ~ 5900 1300
+Wire Wire Line
+	6000 1700 5900 1700
+Wire Wire Line
+	5900 1700 5300 1700
+Connection ~ 5900 1700
+Wire Wire Line
+	10500 1100 10600 1100
+Wire Wire Line
+	10600 1100 10600 1200
+Wire Wire Line
+	10700 1100 10600 1100
+Connection ~ 10600 1100
+Wire Wire Line
+	6200 1700 6400 1700
+Wire Wire Line
+	9900 1100 9800 1100
+Wire Wire Line
+	9800 1100 9800 1200
+Wire Wire Line
+	9500 1100 9800 1100
+Wire Wire Line
+	9500 700  9500 1100
+Wire Wire Line
+	6200 1300 6300 1300
+Wire Wire Line
+	6300 1300 6400 1300
+Wire Wire Line
+	6300 1300 6300 700 
+Wire Wire Line
+	6300 700  9500 700 
+Wire Wire Line
+	10100 2400 9500 2400
+Wire Wire Line
+	9500 2400 9500 1100
+Connection ~ 9800 1100
+Connection ~ 9500 1100
+Connection ~ 6300 1300
+Wire Wire Line
+	10500 2400 10600 2400
+Wire Wire Line
+	10600 2400 10700 2400
+Wire Wire Line
+	10600 2500 10600 2400
+Connection ~ 10600 2400
+$Comp
+L plaits_v50-eagle-import:LD2981ABU IC3
+U 1 0 ECEB7431
+P 11100 2400
+AR Path="/ECEB7431" Ref="IC3"  Part="1" 
+AR Path="/5C99126E/ECEB7431" Ref="IC3"  Part="1" 
+F 0 "IC3" H 10800 2625 59  0000 L BNN
+F 1 "LD2981ABU33" H 10800 2525 59  0000 L BNN
+F 2 "plaits_v50:SOT89" H 11100 2400 50  0001 C CNN
+F 3 "" H 11100 2400 50  0001 C CNN
+	1    11100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:A3L-LOC #FRAME6
+U 1 0 1767A313
+P 900 7400
+AR Path="/1767A313" Ref="#FRAME6"  Part="1" 
+AR Path="/5C99126E/1767A313" Ref="#FRAME6"  Part="1" 
+F 0 "#FRAME6" H 900 7400 50  0001 C CNN
+F 1 "A3L-LOC" H 900 7400 50  0001 C CNN
+F 2 "" H 900 7400 50  0001 C CNN
+F 3 "" H 900 7400 50  0001 C CNN
+	1    900  7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:LM4041DBZ IC9
+U 1 0 A973982C
+P 8200 2400
+AR Path="/A973982C" Ref="IC9"  Part="1" 
+AR Path="/5C99126E/A973982C" Ref="IC9"  Part="1" 
+F 0 "IC9" H 8310 2475 59  0000 L BNN
+F 1 "LM4040B10" H 8310 2365 59  0000 L BNN
+F 2 "plaits_v50:DBZ_R-PDSO-G3" H 8200 2400 50  0001 C CNN
+F 3 "" H 8200 2400 50  0001 C CNN
+	1    8200 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L plaits_v50-eagle-import:R-US_R0402 R37
+U 1 0 47067FB7
+P 7800 2100
+AR Path="/47067FB7" Ref="R37"  Part="1" 
+AR Path="/5C99126E/47067FB7" Ref="R37"  Part="1" 
+F 0 "R37" H 7650 2159 59  0000 L BNN
+F 1 "2.2k" H 7650 1970 59  0000 L BNN
+F 2 "plaits_v50:R0402" H 7800 2100 50  0001 C CNN
+F 3 "" H 7800 2100 50  0001 C CNN
+	1    7800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:C-USC0402 C50
+U 1 0 D634B09A
+P 8400 2300
+AR Path="/D634B09A" Ref="C50"  Part="1" 
+AR Path="/5C99126E/D634B09A" Ref="C50"  Part="1" 
+F 0 "C50" H 8440 2325 59  0000 L BNN
+F 1 "1u" H 8440 2135 59  0000 L BNN
+F 2 "plaits_v50:C0402" H 8400 2300 50  0001 C CNN
+F 3 "" H 8400 2300 50  0001 C CNN
+	1    8400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:GND #GND1
+U 1 0 8DA2BB24
+P 8200 2800
+AR Path="/8DA2BB24" Ref="#GND1"  Part="1" 
+AR Path="/5C99126E/8DA2BB24" Ref="#GND1"  Part="1" 
+F 0 "#GND1" H 8200 2800 50  0001 C CNN
+F 1 "GND" H 8100 2700 59  0000 L BNN
+F 2 "" H 8200 2800 50  0001 C CNN
+F 3 "" H 8200 2800 50  0001 C CNN
+	1    8200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:CPOL-USB C4
+U 1 0 29445B56
+P 7300 1300
+AR Path="/29445B56" Ref="C4"  Part="1" 
+AR Path="/5C99126E/29445B56" Ref="C4"  Part="1" 
+F 0 "C4" H 7340 1325 59  0000 L BNN
+F 1 "22u" H 7340 1135 59  0000 L BNN
+F 2 "plaits_v50:PANASONIC_B" H 7300 1300 50  0001 C CNN
+F 3 "" H 7300 1300 50  0001 C CNN
+	1    7300 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:CPOL-USB C5
+U 1 0 0142D5B0
+P 7300 1800
+AR Path="/0142D5B0" Ref="C5"  Part="1" 
+AR Path="/5C99126E/0142D5B0" Ref="C5"  Part="1" 
+F 0 "C5" H 7340 1825 59  0000 L BNN
+F 1 "22u" H 7340 1635 59  0000 L BNN
+F 2 "plaits_v50:PANASONIC_B" H 7300 1800 50  0001 C CNN
+F 3 "" H 7300 1800 50  0001 C CNN
+	1    7300 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:VCC #P+1
+U 1 0 6A081B6E
+P 7300 1000
+AR Path="/6A081B6E" Ref="#P+1"  Part="1" 
+AR Path="/5C99126E/6A081B6E" Ref="#P+1"  Part="1" 
+F 0 "#P+1" H 7300 1000 50  0001 C CNN
+F 1 "VCC" H 7260 1140 59  0000 L BNN
+F 2 "" H 7300 1000 50  0001 C CNN
+F 3 "" H 7300 1000 50  0001 C CNN
+	1    7300 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:VEE #SUPPLY1
+U 1 0 F54A36B8
+P 7300 2300
+AR Path="/F54A36B8" Ref="#SUPPLY1"  Part="1" 
+AR Path="/5C99126E/F54A36B8" Ref="#SUPPLY1"  Part="1" 
+F 0 "#SUPPLY1" H 7300 2300 50  0001 C CNN
+F 1 "VEE" H 7225 2425 59  0000 L BNN
+F 2 "" H 7300 2300 50  0001 C CNN
+F 3 "" H 7300 2300 50  0001 C CNN
+	1    7300 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L plaits_v50-eagle-import:GND #GND24
+U 1 0 157BD418
+P 7600 1800
+AR Path="/157BD418" Ref="#GND24"  Part="1" 
+AR Path="/5C99126E/157BD418" Ref="#GND24"  Part="1" 
+F 0 "#GND24" H 7600 1800 50  0001 C CNN
+F 1 "GND" H 7500 1700 59  0000 L BNN
+F 2 "" H 7600 1800 50  0001 C CNN
+F 3 "" H 7600 1800 50  0001 C CNN
+	1    7600 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:CPOL-USA C22
+U 1 0 5A436AB8
+P 11600 2600
+AR Path="/5A436AB8" Ref="C22"  Part="1" 
+AR Path="/5C99126E/5A436AB8" Ref="C22"  Part="1" 
+F 0 "C22" H 11640 2625 59  0000 L BNN
+F 1 "10u" H 11640 2435 59  0000 L BNN
+F 2 "plaits_v50:PANASONIC_A" H 11600 2600 50  0001 C CNN
+F 3 "" H 11600 2600 50  0001 C CNN
+	1    11600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:GND #GND2
+U 1 0 4877C9E2
+P 11100 3000
+AR Path="/4877C9E2" Ref="#GND2"  Part="1" 
+AR Path="/5C99126E/4877C9E2" Ref="#GND2"  Part="1" 
+F 0 "#GND2" H 11100 3000 50  0001 C CNN
+F 1 "GND" H 11000 2900 59  0000 L BNN
+F 2 "" H 11100 3000 50  0001 C CNN
+F 3 "" H 11100 3000 50  0001 C CNN
+	1    11100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:GND #GND3
+U 1 0 21137572
+P 11600 3000
+AR Path="/21137572" Ref="#GND3"  Part="1" 
+AR Path="/5C99126E/21137572" Ref="#GND3"  Part="1" 
+F 0 "#GND3" H 11600 3000 50  0001 C CNN
+F 1 "GND" H 11500 2900 59  0000 L BNN
+F 2 "" H 11600 3000 50  0001 C CNN
+F 3 "" H 11600 3000 50  0001 C CNN
+	1    11600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:GND #GND6
+U 1 0 F6847280
+P 4900 1800
+AR Path="/F6847280" Ref="#GND6"  Part="1" 
+AR Path="/5C99126E/F6847280" Ref="#GND6"  Part="1" 
+F 0 "#GND6" H 4900 1800 50  0001 C CNN
+F 1 "GND" H 4800 1700 59  0000 L BNN
+F 2 "" H 4900 1800 50  0001 C CNN
+F 3 "" H 4900 1800 50  0001 C CNN
+	1    4900 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:DIODE-SOD123 D1
+U 1 0 3C2014DD
+P 6100 1300
+AR Path="/3C2014DD" Ref="D1"  Part="1" 
+AR Path="/5C99126E/3C2014DD" Ref="D1"  Part="1" 
+F 0 "D1" H 6100 1181 59  0000 R TNN
+F 1 "1N5819HW" H 6200 1209 59  0001 L BNN
+F 2 "plaits_v50:SOD123" H 6100 1300 50  0001 C CNN
+F 3 "" H 6100 1300 50  0001 C CNN
+	1    6100 1300
+	1    0    0    1   
+$EndComp
+$Comp
+L plaits_v50-eagle-import:DIODE-SOD123 D2
+U 1 0 F701CD12
+P 6100 1700
+AR Path="/F701CD12" Ref="D2"  Part="1" 
+AR Path="/5C99126E/F701CD12" Ref="D2"  Part="1" 
+F 0 "D2" H 6100 1581 59  0000 R TNN
+F 1 "1N5819HW" H 6200 1609 59  0001 L BNN
+F 2 "plaits_v50:SOD123" H 6100 1700 50  0001 C CNN
+F 3 "" H 6100 1700 50  0001 C CNN
+	1    6100 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:WE-CBF_0603 L2
+U 1 0 B1AD6528
+P 6600 1400
+AR Path="/B1AD6528" Ref="L2"  Part="1" 
+AR Path="/5C99126E/B1AD6528" Ref="L2"  Part="1" 
+F 0 "L2" H 6450 1600 59  0000 L BNN
+F 1 "WE-CBF_0603" H 6450 1350 59  0000 L BNN
+F 2 "plaits_v50:0603" H 6600 1400 50  0001 C CNN
+F 3 "" H 6600 1400 50  0001 C CNN
+	1    6600 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:WE-CBF_0603 L3
+U 1 0 C283CED1
+P 6600 1800
+AR Path="/C283CED1" Ref="L3"  Part="1" 
+AR Path="/5C99126E/C283CED1" Ref="L3"  Part="1" 
+F 0 "L3" H 6450 2000 59  0000 L BNN
+F 1 "WE-CBF_0603" H 6450 1750 59  0000 L BNN
+F 2 "plaits_v50:0603" H 6600 1800 50  0001 C CNN
+F 3 "" H 6600 1800 50  0001 C CNN
+	1    6600 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:C-USC0402 C6
+U 1 0 E24BCDB6
+P 11600 1300
+AR Path="/E24BCDB6" Ref="C6"  Part="1" 
+AR Path="/5C99126E/E24BCDB6" Ref="C6"  Part="1" 
+F 0 "C6" H 11640 1325 59  0000 L BNN
+F 1 "100n" H 11640 1135 59  0000 L BNN
+F 2 "plaits_v50:C0402" H 11600 1300 50  0001 C CNN
+F 3 "" H 11600 1300 50  0001 C CNN
+	1    11600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:+3V3 #+3V2
+U 1 0 816AD438
+P 12000 900
+AR Path="/816AD438" Ref="#+3V2"  Part="1" 
+AR Path="/5C99126E/816AD438" Ref="#+3V2"  Part="1" 
+F 0 "#+3V2" H 12000 900 50  0001 C CNN
+F 1 "+3V3" V 11900 700 59  0000 L BNN
+F 2 "" H 12000 900 50  0001 C CNN
+F 3 "" H 12000 900 50  0001 C CNN
+	1    12000 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:GND #GND7
+U 1 0 C2693486
+P 11600 1700
+AR Path="/C2693486" Ref="#GND7"  Part="1" 
+AR Path="/5C99126E/C2693486" Ref="#GND7"  Part="1" 
+F 0 "#GND7" H 11600 1700 50  0001 C CNN
+F 1 "GND" H 11500 1600 59  0000 L BNN
+F 2 "" H 11600 1700 50  0001 C CNN
+F 3 "" H 11600 1700 50  0001 C CNN
+	1    11600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:GND #GND9
+U 1 0 FD0A31A1
+P 11100 1700
+AR Path="/FD0A31A1" Ref="#GND9"  Part="1" 
+AR Path="/5C99126E/FD0A31A1" Ref="#GND9"  Part="1" 
+F 0 "#GND9" H 11100 1700 50  0001 C CNN
+F 1 "GND" H 11000 1600 59  0000 L BNN
+F 2 "" H 11100 1700 50  0001 C CNN
+F 3 "" H 11100 1700 50  0001 C CNN
+	1    11100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:CPOL-USA C3
+U 1 0 D78CBC2F
+P 12000 1300
+AR Path="/D78CBC2F" Ref="C3"  Part="1" 
+AR Path="/5C99126E/D78CBC2F" Ref="C3"  Part="1" 
+F 0 "C3" H 12040 1325 59  0000 L BNN
+F 1 "10u" H 12040 1135 59  0000 L BNN
+F 2 "plaits_v50:PANASONIC_A" H 12000 1300 50  0001 C CNN
+F 3 "" H 12000 1300 50  0001 C CNN
+	1    12000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:GND #GND11
+U 1 0 5518330F
+P 12000 1700
+AR Path="/5518330F" Ref="#GND11"  Part="1" 
+AR Path="/5C99126E/5518330F" Ref="#GND11"  Part="1" 
+F 0 "#GND11" H 12000 1700 50  0001 C CNN
+F 1 "GND" H 11900 1600 59  0000 L BNN
+F 2 "" H 12000 1700 50  0001 C CNN
+F 3 "" H 12000 1700 50  0001 C CNN
+	1    12000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:C-USC1206 C2
+U 1 0 E26F5DF5
+P 9800 1300
+AR Path="/E26F5DF5" Ref="C2"  Part="1" 
+AR Path="/5C99126E/E26F5DF5" Ref="C2"  Part="1" 
+F 0 "C2" H 9840 1325 59  0000 L BNN
+F 1 "22u" H 9840 1135 59  0000 L BNN
+F 2 "plaits_v50:C1206" H 9800 1300 50  0001 C CNN
+F 3 "" H 9800 1300 50  0001 C CNN
+	1    9800 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:C-USC1206 C1
+U 1 0 86EBEF45
+P 10600 1300
+AR Path="/86EBEF45" Ref="C1"  Part="1" 
+AR Path="/5C99126E/86EBEF45" Ref="C1"  Part="1" 
+F 0 "C1" H 10640 1325 59  0000 L BNN
+F 1 "22u" H 10640 1135 59  0000 L BNN
+F 2 "plaits_v50:C1206" H 10600 1300 50  0001 C CNN
+F 3 "" H 10600 1300 50  0001 C CNN
+	1    10600 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:L-USL2012C L1
+U 1 0 C825AC57
+P 10200 1100
+AR Path="/C825AC57" Ref="L1"  Part="1" 
+AR Path="/5C99126E/C825AC57" Ref="L1"  Part="1" 
+F 0 "L1" V 10150 900 59  0000 L BNN
+F 1 "33u" V 10350 900 59  0000 L BNN
+F 2 "plaits_v50:L2012C" H 10200 1100 50  0001 C CNN
+F 3 "" H 10200 1100 50  0001 C CNN
+	1    10200 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L plaits_v50-eagle-import:GND #GND12
+U 1 0 8C4C494A
+P 9800 1700
+AR Path="/8C4C494A" Ref="#GND12"  Part="1" 
+AR Path="/5C99126E/8C4C494A" Ref="#GND12"  Part="1" 
+F 0 "#GND12" H 9800 1700 50  0001 C CNN
+F 1 "GND" H 9700 1600 59  0000 L BNN
+F 2 "" H 9800 1700 50  0001 C CNN
+F 3 "" H 9800 1700 50  0001 C CNN
+	1    9800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:GND #GND13
+U 1 0 85B66688
+P 10600 1700
+AR Path="/85B66688" Ref="#GND13"  Part="1" 
+AR Path="/5C99126E/85B66688" Ref="#GND13"  Part="1" 
+F 0 "#GND13" H 10600 1700 50  0001 C CNN
+F 1 "GND" H 10500 1600 59  0000 L BNN
+F 2 "" H 10600 1700 50  0001 C CNN
+F 3 "" H 10600 1700 50  0001 C CNN
+	1    10600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:WE173950378 IC1
+U 1 0 B9C5123E
+P 11100 1100
+AR Path="/B9C5123E" Ref="IC1"  Part="1" 
+AR Path="/5C99126E/B9C5123E" Ref="IC1"  Part="1" 
+F 0 "IC1" H 10800 1325 59  0000 L BNN
+F 1 "R-78E3.3-0.5" H 10800 1225 59  0000 L BNN
+F 2 "plaits_v50:WE78" H 11100 1100 50  0001 C CNN
+F 3 "" H 11100 1100 50  0001 C CNN
+	1    11100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:GND #GND16
+U 1 0 12C6E2A1
+P 10600 3000
+AR Path="/12C6E2A1" Ref="#GND16"  Part="1" 
+AR Path="/5C99126E/12C6E2A1" Ref="#GND16"  Part="1" 
+F 0 "#GND16" H 10600 3000 50  0001 C CNN
+F 1 "GND" H 10500 2900 59  0000 L BNN
+F 2 "" H 10600 3000 50  0001 C CNN
+F 3 "" H 10600 3000 50  0001 C CNN
+	1    10600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:WE-CBF_0603 L5
+U 1 0 31814C62
+P 10300 2500
+AR Path="/31814C62" Ref="L5"  Part="1" 
+AR Path="/5C99126E/31814C62" Ref="L5"  Part="1" 
+F 0 "L5" H 10150 2700 59  0000 L BNN
+F 1 "WE-CBF_0603" H 10150 2450 59  0000 L BNN
+F 2 "plaits_v50:0603" H 10300 2500 50  0001 C CNN
+F 3 "" H 10300 2500 50  0001 C CNN
+	1    10300 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:C-USC1206 C13
+U 1 0 43123AAB
+P 10600 2600
+AR Path="/43123AAB" Ref="C13"  Part="1" 
+AR Path="/5C99126E/43123AAB" Ref="C13"  Part="1" 
+F 0 "C13" H 10640 2625 59  0000 L BNN
+F 1 "22u" H 10640 2435 59  0000 L BNN
+F 2 "plaits_v50:C1206" H 10600 2600 50  0001 C CNN
+F 3 "" H 10600 2600 50  0001 C CNN
+	1    10600 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:MOUNT-HOLE3.0TINY H3
+U 1 0 17B3801D
+P 9500 3500
+AR Path="/17B3801D" Ref="H3"  Part="1" 
+AR Path="/5C99126E/17B3801D" Ref="H3"  Part="1" 
+F 0 "H3" H 9580 3523 59  0000 L BNN
+F 1 "MOUNT-HOLE" H 9580 3403 59  0000 L BNN
+F 2 "plaits_v50:3,0TINY" H 9500 3500 50  0001 C CNN
+F 3 "" H 9500 3500 50  0001 C CNN
+	1    9500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:MOUNT-HOLE3.0TINY H2
+U 1 0 94F2DC10
+P 9500 4100
+AR Path="/94F2DC10" Ref="H2"  Part="1" 
+AR Path="/5C99126E/94F2DC10" Ref="H2"  Part="1" 
+F 0 "H2" H 9580 4123 59  0000 L BNN
+F 1 "MOUNT-HOLE" H 9580 4003 59  0000 L BNN
+F 2 "plaits_v50:3,0TINY" H 9500 4100 50  0001 C CNN
+F 3 "" H 9500 4100 50  0001 C CNN
+	1    9500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L plaits_v50-eagle-import:M05X2SHD JP8
+U 1 0 357D3C8D
+P 5600 1500
+AR Path="/357D3C8D" Ref="JP8"  Part="1" 
+AR Path="/5C99126E/357D3C8D" Ref="JP8"  Part="1" 
+F 0 "JP8" H 5500 1830 59  0000 L BNN
+F 1 "M05X2SHD" H 5500 1100 59  0000 L BNN
+F 2 "plaits_v50:2X5-SHROUDED" H 5600 1500 50  0001 C CNN
+F 3 "" H 5600 1500 50  0001 C CNN
+	1    5600 1500
+	1    0    0    1   
+$EndComp
+Text Notes 12300 6600 0    85   ~ 0
+cc-by-sa
+Text Notes 12300 6800 0    85   ~ 0
+Olivier Gillet
+Text Notes 12300 7000 0    85   ~ 0
+ol.gillet@gmail.com
+Text Notes 14500 6600 0    85   ~ 0
+Power
+Text Notes 8500 2000 0    59   ~ 0
+0.56mA needed
+Text Notes 6400 1000 0    59   ~ 0
+Wurth 742792664
+Text Notes 8500 1900 0    59   ~ 0
+0.68mA delivered
+$EndSCHEMATC

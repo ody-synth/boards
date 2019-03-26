@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name plaits_v50-eagle-import)(type Legacy)(uri ${KIPRJMOD}/plaits_v50-eagle-import.lib)(options "")(descr ""))
+  (lib (name plaits_v50-rescue)(type Legacy)(uri ${KIPRJMOD}/plaits_v50-rescue.lib)(options "")(descr ""))
 )

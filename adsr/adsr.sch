@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:adsr-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1275,17 +1276,6 @@ F 3 "~" H 4800 6800 50  0001 C CNN
 	1    4800 6800
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R14
-U 1 1 5CB3ABFF
-P 4950 7050
-F 0 "R14" V 5157 7050 50  0000 C CNN
-F 1 "1k" V 5066 7050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4880 7050 50  0001 C CNN
-F 3 "~" H 4950 7050 50  0001 C CNN
-	1    4950 7050
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4650 6800 4450 6800
 $Comp
@@ -1340,6 +1330,7 @@ F0 "EURORACKPIN" 50
 F1 "EURORACKPIN.sch" 50
 F2 "12V" O L 4750 900 50 
 F3 "-12V" O R 5350 900 50 
+F4 "12Vto5V" O L 4750 1000 50 
 $EndSheet
 Text GLabel 4700 900  0    50   BiDi ~ 0
 12V
@@ -1363,4 +1354,15 @@ $EndComp
 Wire Wire Line
 	3000 7050 2900 7050
 NoConn ~ 3400 7150
+$Comp
+L Device:R R14
+U 1 1 5C9B679C
+P 4950 7050
+F 0 "R14" V 5157 7050 50  0000 C CNN
+F 1 "1k" V 5066 7050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4880 7050 50  0001 C CNN
+F 3 "~" H 4950 7050 50  0001 C CNN
+	1    4950 7050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:vca-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -53,6 +54,7 @@ F0 "EURORACKPIN" 50
 F1 "EURORACKPIN.sch" 50
 F2 "12V" O R 6200 850 50 
 F3 "-12V" O L 5600 850 50 
+F4 "12Vto5V" O R 6200 950 50 
 $EndSheet
 Text GLabel 5500 850  0    50   BiDi ~ 0
 -12V_

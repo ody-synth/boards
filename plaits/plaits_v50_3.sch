@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:plaits_v50-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 16871 10433
@@ -47,8 +48,6 @@ Wire Wire Line
 	5000 6450 5100 6450
 Connection ~ 5100 6550
 Connection ~ 5100 6450
-Text GLabel 1350 8900 1    70   BiDi ~ 0
-+3V3_A
 Wire Wire Line
 	4250 8250 4250 8350
 Text GLabel 4250 8350 3    70   BiDi ~ 0
@@ -68,19 +67,6 @@ Text GLabel 5750 4350 3    70   BiDi ~ 0
 ADC_MODEL
 Text GLabel 9500 6950 3    70   BiDi ~ 0
 ADC_GATE
-$Comp
-L plaits_v50-eagle-import:A3L-LOC #FRAME5
-U 1 0 D3799FDF
-P 900 9600
-AR Path="/D3799FDF" Ref="#FRAME5"  Part="1" 
-AR Path="/5C9909FC/D3799FDF" Ref="#FRAME5"  Part="1" 
-F 0 "#FRAME5" H 900 9600 50  0001 C CNN
-F 1 "A3L-LOC" H 900 9600 50  0001 C CNN
-F 2 "" H 900 9600 50  0001 C CNN
-F 3 "" H 900 9600 50  0001 C CNN
-	1    900  9600
-	1    0    0    -1  
-$EndComp
 Text Notes 12300 8800 0    85   ~ 0
 cc-by-sa
 Text Notes 12300 9000 0    85   ~ 0
@@ -212,7 +198,7 @@ Connection ~ 1100 9500
 Connection ~ 1350 9500
 Connection ~ 1100 8900
 Wire Wire Line
-	1100 8900 1550 8900
+	1100 8900 1350 8900
 Connection ~ 1550 8900
 $Comp
 L Amplifier_Operational:MCP6004 U6
@@ -971,8 +957,6 @@ F 3 "" H 4050 8650 50  0001 C CNN
 	1    4050 8650
 	1    0    0    -1  
 $EndComp
-Text GLabel 4550 3850 0    70   BiDi ~ 0
-AREF_-10
 Wire Wire Line
 	5150 3950 4950 3950
 Wire Wire Line
@@ -1102,8 +1086,6 @@ $EndComp
 Connection ~ 4950 4250
 Connection ~ 5550 4350
 NoConn ~ 4400 4450
-Text GLabel 6400 3850 0    70   BiDi ~ 0
-AREF_-10
 Wire Wire Line
 	7000 3950 6800 3950
 Wire Wire Line
@@ -1380,17 +1362,6 @@ $EndComp
 Connection ~ 8600 4250
 Connection ~ 9200 4350
 $Comp
-L plaits_v50-eagle-import:+3V3 #+3V030101
-U 1 1 5D9D6A23
-P 4050 7950
-F 0 "#+3V030101" H 4050 7950 50  0001 C CNN
-F 1 "+3V3" H 4050 8071 59  0000 C CNN
-F 2 "" H 4050 7950 50  0001 C CNN
-F 3 "" H 4050 7950 50  0001 C CNN
-	1    4050 7950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Amplifier_Operational:MCP6004 U7
 U 1 1 5D9FE3D0
 P 10800 6950
@@ -1403,4 +1374,33 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 10850 7150 50
 $EndComp
 Connection ~ 11100 6950
 Connection ~ 10500 6850
+$Comp
+L power:+3.3V #PWR0122
+U 1 1 5CA489E9
+P 4050 8050
+F 0 "#PWR0122" H 4050 7900 50  0001 C CNN
+F 1 "+3.3V" H 4065 8223 50  0000 C CNN
+F 2 "" H 4050 8050 50  0001 C CNN
+F 3 "" H 4050 8050 50  0001 C CNN
+	1    4050 8050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 3850 0    70   BiDi ~ 0
+AREF_-10
+Text GLabel 4550 3850 0    70   BiDi ~ 0
+AREF_-10
+$Comp
+L power:+3.3VA #PWR0123
+U 1 1 5CA814D7
+P 1350 8900
+F 0 "#PWR0123" H 1350 8750 50  0001 C CNN
+F 1 "+3.3VA" H 1365 9073 50  0000 C CNN
+F 2 "" H 1350 8900 50  0001 C CNN
+F 3 "" H 1350 8900 50  0001 C CNN
+	1    1350 8900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1350 8900
+Wire Wire Line
+	1350 8900 1550 8900
 $EndSCHEMATC

@@ -227,6 +227,7 @@ F0 "EURORACKPIN" 50
 F1 "EURORACKPIN.sch" 50
 F2 "12V" O L 10200 3800 50 
 F3 "-12V" O R 10800 3800 50 
+F4 "12Vto5V" O R 10800 3900 50 
 $EndSheet
 Wire Wire Line
 	10800 3800 10900 3800
@@ -817,8 +818,6 @@ Wire Wire Line
 Connection ~ 10500 4700
 Wire Wire Line
 	10200 4700 10500 4700
-Text GLabel 10100 3800 0    50   BiDi ~ 0
-12V
 Text GLabel 10200 4400 0    50   BiDi ~ 0
 12V
 Text GLabel 10800 4400 2    50   BiDi ~ 0
@@ -908,4 +907,6 @@ Wire Wire Line
 	7250 5000 9050 5000
 Wire Wire Line
 	9050 5000 9050 5350
+Text GLabel 10100 3800 0    50   BiDi ~ 0
+12V
 $EndSCHEMATC

@@ -79,31 +79,31 @@ Wire Wire Line
 	1400 2250 1500 2250
 Wire Wire Line
 	2000 2250 2100 2250
-Text GLabel 2900 1750 0    50   BiDi ~ 0
+Text GLabel 3200 1750 0    50   BiDi ~ 0
 12VC
-Text GLabel 2900 2350 0    50   BiDi ~ 0
+Text GLabel 3200 2350 0    50   BiDi ~ 0
 -12VC
 $Comp
 L Diode:1N4007 D4
 U 1 1 5C897E61
-P 3300 1900
-F 0 "D4" V 3254 1979 50  0000 L CNN
-F 1 "1N4007" V 3345 1979 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3300 1725 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3300 1900 50  0001 C CNN
-	1    3300 1900
-	0    1    1    0   
+P 3450 1750
+F 0 "D4" V 3404 1829 50  0000 L CNN
+F 1 "1N4007" V 3495 1829 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3450 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3450 1750 50  0001 C CNN
+	1    3450 1750
+	-1   0    0    1   
 $EndComp
 $Comp
 L Diode:1N4007 D5
 U 1 1 5C897EA0
-P 3300 2200
-F 0 "D5" V 3254 2279 50  0000 L CNN
-F 1 "1N4007" V 3345 2279 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3300 2025 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3300 2200 50  0001 C CNN
-	1    3300 2200
-	0    1    1    0   
+P 3450 2350
+F 0 "D5" V 3404 2429 50  0000 L CNN
+F 1 "1N4007" V 3495 2429 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3450 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3450 2350 50  0001 C CNN
+	1    3450 2350
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C5
@@ -111,7 +111,7 @@ U 1 1 5C897F6C
 P 3900 1900
 F 0 "C5" H 4018 1946 50  0000 L CNN
 F 1 "10uF" H 4018 1855 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3938 1750 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3938 1750 50  0001 C CNN
 F 3 "~" H 3900 1900 50  0001 C CNN
 	1    3900 1900
 	1    0    0    -1  
@@ -122,7 +122,7 @@ U 1 1 5C897FF0
 P 3900 2200
 F 0 "C6" H 4018 2246 50  0000 L CNN
 F 1 "10uF" H 4018 2155 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3938 2050 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3938 2050 50  0001 C CNN
 F 3 "~" H 3900 2200 50  0001 C CNN
 	1    3900 2200
 	1    0    0    -1  
@@ -152,23 +152,23 @@ $EndComp
 $Comp
 L Device:L L1
 U 1 1 5C8981AC
-P 3150 1750
-F 0 "L1" V 3340 1750 50  0000 C CNN
-F 1 "22uH" V 3249 1750 50  0000 C CNN
-F 2 "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" H 3150 1750 50  0001 C CNN
-F 3 "~" H 3150 1750 50  0001 C CNN
-	1    3150 1750
+P 3750 1750
+F 0 "L1" V 3940 1750 50  0000 C CNN
+F 1 "22uH" V 3849 1750 50  0000 C CNN
+F 2 "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" H 3750 1750 50  0001 C CNN
+F 3 "~" H 3750 1750 50  0001 C CNN
+	1    3750 1750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:L L2
 U 1 1 5C8982C8
-P 3150 2350
-F 0 "L2" V 3340 2350 50  0000 C CNN
-F 1 "22uH" V 3249 2350 50  0000 C CNN
-F 2 "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" H 3150 2350 50  0001 C CNN
-F 3 "~" H 3150 2350 50  0001 C CNN
-	1    3150 2350
+P 3750 2350
+F 0 "L2" V 3940 2350 50  0000 C CNN
+F 1 "22uH" V 3849 2350 50  0000 C CNN
+F 2 "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" H 3750 2350 50  0001 C CNN
+F 3 "~" H 3750 2350 50  0001 C CNN
+	1    3750 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -189,24 +189,13 @@ Wire Wire Line
 	4450 2050 3900 2050
 Connection ~ 3900 2050
 Wire Wire Line
-	3900 2050 3300 2050
-Connection ~ 3300 2050
+	3300 2350 3200 2350
 Wire Wire Line
-	3000 2350 2900 2350
-Wire Wire Line
-	3000 1750 2900 1750
-Wire Wire Line
-	3300 1750 3900 1750
-Connection ~ 3300 1750
+	3300 1750 3200 1750
 Wire Wire Line
 	3900 1750 4450 1750
-Connection ~ 3900 1750
 Wire Wire Line
 	4450 2350 3900 2350
-Wire Wire Line
-	3900 2350 3300 2350
-Connection ~ 3900 2350
-Connection ~ 3300 2350
 Text HLabel 4450 1650 1    50   Output ~ 0
 12V
 Text HLabel 4450 2450 3    50   Output ~ 0
@@ -217,4 +206,11 @@ Connection ~ 4450 2350
 Wire Wire Line
 	4450 1750 4450 1650
 Connection ~ 4450 1750
+Connection ~ 3900 1750
+Connection ~ 3900 2350
+Text HLabel 3600 1550 1    50   Output ~ 0
+12Vto5V
+Wire Wire Line
+	3600 1750 3600 1550
+Connection ~ 3600 1750
 $EndSCHEMATC
